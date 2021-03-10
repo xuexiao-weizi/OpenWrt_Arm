@@ -2,6 +2,13 @@
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
 
+
+rm -rf package/lean/luci-theme-argon
+
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
+
+
 # 修改openwrt登陆地址,把下面的192.168.2.2修改成你想要的就可以了
 sed -i 's/192.168.1.1/192.168.1.3/g' package/base-files/files/bin/config_generate
 
