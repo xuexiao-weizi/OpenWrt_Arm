@@ -33,7 +33,6 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/smartdns 
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-smartdns package/luci-app-smartdns
 
 
-src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
 
 
 cd openwrt
