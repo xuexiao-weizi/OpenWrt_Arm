@@ -55,6 +55,11 @@ git reset --hard ff7773abbf71120fc39a276393b29ba47353a7e2 && cp -r luci-app-wrtb
 cd ..
 
 #
+#添加luci-app-koolproxyR luci-app-gowebdav luci-app-dnsfilter
+svn co https://github.com/281677160/openwrt-package/tree/master/luci-app-koolproxyR package/luci-app-koolproxyR
+svn co https://github.com/281677160/openwrt-package/tree/master/luci-app-gowebdav/gowebdav package/gowebdav
+svn co https://github.com/281677160/openwrt-package/tree/master/luci-app-gowebdav/luci-app-gowebdav package/luci-app-gowebdav
+svn co https://github.com/281677160/openwrt-package/tree/master/luci-app-dnsfilter package/luci-app-dnsfilter
 
 # themes
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-darkmatter package/luci-theme-darkmatter
