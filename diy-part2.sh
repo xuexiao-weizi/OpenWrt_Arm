@@ -57,8 +57,8 @@ cd ..
 #
 #添加luci-app-koolproxyR luci-app-gowebdav luci-app-dnsfilter
 svn co https://github.com/281677160/openwrt-package/trunk/luci-app-koolproxyR package/luci-app-koolproxyR
-svn co https://github.com/281677160/openwrt-package/trunk/luci-app-gowebdav/gowebdav package/gowebdav
-svn co https://github.com/281677160/openwrt-package/trunk/luci-app-gowebdav/luci-app-gowebdav package/luci-app-gowebdav
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/gowebdav package/gowebdav
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-gowebdav package/luci-app-gowebdav
 svn co https://github.com/281677160/openwrt-package/trunk/luci-app-dnsfilter package/luci-app-dnsfilter
 
 # themes
