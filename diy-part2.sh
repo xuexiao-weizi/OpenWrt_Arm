@@ -91,8 +91,13 @@ svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/rapidjson
 #svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/subweb package/subweb
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/subconverter package/subconverter
 #添加smartdns
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/smartdns package/smartdns
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/luci-app-smartdns package/luci-app-smartdns
+#svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/smartdns package/smartdns
+#svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/luci-app-smartdns package/luci-app-smartdns
+svn co https://github.com/281677160/openwrt-package/trunk/smartdns package/smartdns
+svn co https://github.com/281677160/openwrt-package/trunk/luci-app-smartdns package/luci-app-smartdns
+
+svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns-le package/smartdns-le
+
 #git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 #git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 
