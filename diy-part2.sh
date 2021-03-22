@@ -56,10 +56,12 @@ cd ..
 
 #
 #添加luci-app-koolproxyR luci-app-gowebdav luci-app-dnsfilter
-svn co https://github.com/281677160/openwrt-package/trunk/luci-app-koolproxyR package/luci-app-koolproxyR
+#svn co https://github.com/281677160/openwrt-package/trunk/luci-app-koolproxyR package/luci-app-koolproxyR
+git clone https://github.com/xuexiao-weizi/luci-app-koolproxyR package/luci-app-koolproxyR
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/gowebdav package/gowebdav
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-gowebdav package/luci-app-gowebdav
-svn co https://github.com/281677160/openwrt-package/trunk/luci-app-dnsfilter package/luci-app-dnsfilter
+#svn co https://github.com/281677160/openwrt-package/trunk/luci-app-dnsfilter package/luci-app-dnsfilter
+git clone https://github.com/xuexiao-weizi/luci-app-dnsfilter package/luci-app-dnsfilter
 
 # themes
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-theme-darkmatter package/luci-theme-darkmatter
@@ -93,8 +95,10 @@ svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/subconver
 #添加smartdns
 #svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/smartdns package/smartdns
 #svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/luci-app-smartdns package/luci-app-smartdns
-svn co https://github.com/281677160/openwrt-package/trunk/smartdns package/smartdns
-svn co https://github.com/281677160/openwrt-package/trunk/luci-app-smartdns package/luci-app-smartdns
+#svn co https://github.com/281677160/openwrt-package/trunk/smartdns package/smartdns
+git clone https://github.com/xuexiao-weizi/smartdns package/smartdns
+#svn co https://github.com/281677160/openwrt-package/trunk/luci-app-smartdns package/luci-app-smartdns
+git clone https://github.com/xuexiao-weizi/luci-app-smartdns package/luci-app-smartdns
 
 svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns-le package/smartdns-le
 
