@@ -1,0 +1,6 @@
+
+config mysqld 'general'
+	option enabled '1'
+	option log_stderr '1'
+	option log_stdout '1'
+	option options ''
