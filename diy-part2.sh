@@ -18,7 +18,7 @@ git clone https://github.com/kongfl888/luci-app-adguardhome.git package/luci-app
 git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 git clone https://github.com/rufengsuixing/luci-app-autoipsetadder.git package/luci-app-autoipsetadder
 git clone https://github.com/mchome/openwrt-dogcom.git package/openwrt-dogcom
-git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass
+#git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass
 
 #git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 #cp -r package/OpenClash/luci-app-openclash package/
@@ -150,7 +150,7 @@ find package/*/ -maxdepth 2 -path "*/Makefile" | xargs -i sed -i 's/include\ \.\
 
 #find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-redir/shadowsocksr-libev-alt/g' {}
 #find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-server/shadowsocksr-libev-server/g' {}
-find package/luci-app-bypass/* -maxdepth 8 -path "*" | xargs -i sed -i 's/smartdns-le/smartdns/g' {}
+#find package/luci-app-bypass/* -maxdepth 8 -path "*" | xargs -i sed -i 's/smartdns-le/smartdns/g' {}
 
 #find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/smartdns-le/smartdns/g' {}
 
