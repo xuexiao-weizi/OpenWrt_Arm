@@ -45,6 +45,10 @@ svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/l
 pushd package/luci-app-openclash/tools/po2lmo
 make && sudo make install
 popd
+
+svn co https://github.com/immortalwrt/packages/branches/openwrt-18.06/net/gowebdav package/gowebdav
+svn co https://github.com/immortalwrt/luci/branches/openwrt-18.06/applications/luci-app-gowebdav package/luci-app-gowebdav
+
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook package/brook
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/chinadns-ng
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/tcping package/tcping
