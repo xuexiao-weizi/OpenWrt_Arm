@@ -18,6 +18,10 @@ rm -rf feeds/packages/net/smartdns
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/sirpdboy/netspeedtest package/netspeedtest
 
+#添加luci-app-koolproxyR luci-app-gowebdav luci-app-dnsfilter
+#svn co https://github.com/281677160/openwrt-package/trunk/luci-app-koolproxyR package/luci-app-koolproxyR
+git clone https://github.com/xuexiao-weizi/luci-app-koolproxyR package/luci-app-koolproxyR
+
 #replace mirrors
 #rm -rf ./include
 #rm -rf ./ scripts
