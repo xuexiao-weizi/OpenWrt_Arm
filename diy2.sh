@@ -17,7 +17,6 @@ rm -rf feeds/packages/net/smartdns
 #添加额外软件包
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/sirpdboy/netspeedtest package/netspeedtest
-git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
 
 #replace mirrors
 #rm -rf ./include
