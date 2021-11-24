@@ -28,6 +28,10 @@ git clone https://github.com/xuexiao-weizi/luci-app-koolproxyR package/luci-app-
 #svn co https://github.com/immortalwrt/immortalwrt/trunk/include
 #svn co https://github.com/immortalwrt/immortalwrt/trunk/scripts
 
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-timewol package/luci-app-control-timewol
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-webrestriction package/luci-app-control-webrestriction
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-weburl package/luci-app-control-weburl
+
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 git clone https://github.com/jerrykuku/luci-app-ttnode.git package/luci-app-ttnode
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
